@@ -1,18 +1,28 @@
-body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background-image: url(Iceland.jpg);
-  background-repeat: repeat;
+h1 {
+  color: black;
+  font-size: 36px;
+  text-align: center;
 }
-#wrapper {
-  width: 960px;
-  margin: 20px auto 20px auto;
+.carousel-inner > .item > img {
+  margin: 0 auto;
 }
-#summary {
-   color:blue;
-   font-size: 96px;
+.carousel-inner > .item > img{
+  width:640px;
+  height:360px;
 }
-.awesome {
-  color:blue;
-  font-size:36px;
+#title8 {
+  font-family: 'Fjalla One', sans-serif;
+  background-color: lightblue;
+}
+#promo {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+#title9 {
+  font-family: 'Fjalla One', sans-serif;
+}
+.image_circle {
+  border-radius: 50%;
 }
